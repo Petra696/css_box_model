@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Links, images, lists opdracht -->
+  <title> HTML pagina met links</title>
+  <style>
+    h1,
+    h2,
+    p {
+      margin: 15px;
+      /*apply to all four sides */
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+
+    h3,
+    a,
+    h4 {
+      margin: 5px;
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+
+    div {
+      margin: 25px 50px;
+      /*vertical | horizontal */
+    }
+
+    hr {
+      margin: 25px 50px 50px 25px;
+      /*top | right | bottom | left */
+    }
+
+    .container ol {
+      position: relative;
+      left: 50px;
+      padding: 25px;
+      margin: auto;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 200px;
+      background-color: cornflowerblue;
+    }
+
+    li a {
+      display: block;
+      color: darkblue;
+      padding: 8px 16px;
+      text-decoration: none;
+      padding-left: 35px;
+    }
+
+    /* Change the link color on hover */
+    li a:hover {
+      background-color: orchid;
+      color: pink;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="black-border blue-background">
+    <h1><strong>Mijn eerste HTML pagina</strong></h1>
+    <header>
+      <nav>
+        <h2>HTML document</h2>
+        <p>Hoe maak je een HTML document</p>
+        <hr>
+        <nav>
+          <main id="green-background">
+            <ol class="container">Kleur</ol>
+            <ol class="container">Opmaak</ol>
+            <ol class="container">Indeling</ol>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="Nieuws">Nieuws</a></li>
+            </ul>
+            <main>
+              <hr>
+              <footer>
+                <h3>Link naar about pagina</h1>
+                  <a href="about.html">Aboutpagina</a>
+                  <h4>Link naar Styles.css pagina</h2>
+                    <a href="Styles.xss">Styles.css pagina</a>
+                    <link rel="stylesheet" type="text/css" href="styles.css">
+                    <footer>
+
+                      <body>
+                        <html>
